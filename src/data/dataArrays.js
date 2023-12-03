@@ -110,7 +110,7 @@ export const recipes = [
       [18, "1 tsp cumin"],
     ],
     description:
-      "Marinate the chicken in yogurt, turmeric, garam masala, and cumin. Grill until done. In a pan, cook tomato puree with spices, then add cream and grilled chicken. Simmer until the sauce thickens. Serve with naan or rice.",
+      "Marinate the chicken in yogurt, turmeric, garam masala, and cumin. Grill until done. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lectus feugiat, vestibulum arcu sed, pulvinar lectus. Donec sed tincidunt quam. In ut purus feugiat, varius metus at, tempor purus. Donec non orci in velit blandit sagittis. Donec eget lectus sit amet massa tincidunt elementum. Praesent tincidunt volutpat dolor, vitae posuere leo suscipit ac. Fusce a diam sed lectus fermentum pharetra sit amet id leo. Curabitur sit amet aliquam mauris, quis porta orci. Suspendisse dapibus, arcu pharetra egestas cursus, tellus mauris condimentum nulla, id molestie urna nunc vel metus. In a pan, cook tomato puree with spices, then add cream and grilled chicken. Simmer until the sauce thickens. Serve with naan or rice.",
   },
 
   {
@@ -136,7 +136,7 @@ export const recipes = [
       [27, "1 tbsp gochujang (Korean chili paste)"],
     ],
     description:
-      "Cook beef mince with soy sauce and sesame oil. Blanch spinach and season. Sauté carrot and cucumber separately. Fry an egg. Assemble the dish with rice at the bottom, topped with the cooked ingredients, and a dollop of gochujang. Mix before eating.",
+      "Cook beef mince with soy sauce and sesame oil. Blanch spinach and season. Sauté carrot and cucumber separately. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lectus feugiat, vestibulum arcu sed, pulvinar lectus. Donec sed tincidunt quam. In ut purus feugiat, varius metus at, tempor purus. Donec non orci in velit blandit sagittis. Donec eget lectus sit amet massa tincidunt elementum. Praesent tincidunt volutpat dolor, vitae posuere leo suscipit ac. Fusce a diam sed lectus fermentum pharetra sit amet id leo. Curabitur sit amet aliquam mauris, quis porta orci. Suspendisse dapibus, arcu pharetra egestas cursus, tellus mauris condimentum nulla, id molestie urna nunc vel metus.Fry an egg. Assemble the dish with rice at the bottom, topped with the cooked ingredients, and a dollop of gochujang. Mix before eating.",
   },
   {
     recipeId: 5,

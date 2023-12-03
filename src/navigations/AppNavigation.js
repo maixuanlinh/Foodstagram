@@ -9,7 +9,8 @@ import HomeScreen from "../screens/Home/HomeScreen";
 import DrawerContainer from "../screens/DrawerContainer/DrawerContainer";
 import CategoriesScreen from "../screens/Categories/CategoriesScreen";
 import RecipeScreen from "../screens/Recipe/RecipeScreen";
-
+import IngredientsDetailsScreen from "../screens/IngredientsDetails/IngredientsDetailsScreen";
+import IngredientScreen from "../screens/Ingredient/IngredientScreen";
 // Create a stack navigator
 const Stack = createStackNavigator();
 
@@ -32,6 +33,12 @@ function MainNavigator() {
       <Stack.Screen name="Categories" component={CategoriesScreen} />
       {/* Stack Screen for Recipe */}
       <Stack.Screen name='Recipe' component={RecipeScreen}/>
+      {/* Stack Screen for IngredientsDetails */}
+      <Stack.Screen name='IngredientsDetails' component={IngredientsDetailsScreen} />
+      {/* Stack Screen for Ingredient */}
+      <Stack.Screen name='Ingredient' component={IngredientScreen} />
+
+
     </Stack.Navigator>
   );
 }

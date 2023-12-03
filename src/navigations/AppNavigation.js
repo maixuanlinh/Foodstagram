@@ -7,6 +7,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 // Importing screens for navigation
 import HomeScreen from '../screens/Home/HomeScreen';
 import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
+import CategoriesScreen from '../screens/Categories/CategoriesScreen';
+
 
 // Create a stack navigator
 const Stack = createStackNavigator();
@@ -26,6 +28,9 @@ function MainNavigator() {
     >
       {/* Stack Screen for Home */}
       <Stack.Screen name='Home' component={HomeScreen} />
+           {/* Stack Screen for Categories */}
+      <Stack.Screen name='Categories' component={CategoriesScreen}/>
+
     </Stack.Navigator>
   );
 }

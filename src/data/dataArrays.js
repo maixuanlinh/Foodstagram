@@ -44,6 +44,11 @@ export const recipes = [
     title: 'Mapo Tofu',
     photo_url: 'https://www.seriouseats.com/thmb/CaR7btHrJgEO3OKZD1Z_795VmII=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2011__07__2021-02-12-Mapo-Tofu-MHOM-10-804db1211f1d47dbae505341d1e7b994.jpg', // Add photo URL
     time: '25 mins',
+    photosArray: [
+      'https://www.seriouseats.com/thmb/CaR7btHrJgEO3OKZD1Z_795VmII=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2011__07__2021-02-12-Mapo-Tofu-MHOM-10-804db1211f1d47dbae505341d1e7b994.jpg', // Add photo URL
+      
+      'https://hips.hearstapps.com/hmg-prod/images/fiery-pork-lettuce-wraps-654d1ae21fc49.jpg?crop=1.00xw:0.669xh;0,0.142xh&resize=640:*'
+    ],
     ingredients: [
       [1, '300g soft tofu'],
       [2, '100g ground pork'],
@@ -52,13 +57,14 @@ export const recipes = [
       [5, '3 tbsp chili oil'],
       [6, '1 tbsp minced garlic']
     ],
-    description: 'Start by heating a pan and cooking the ground pork until browned. Add minced garlic, Sichuan peppercorns, and fermented black beans. Stir-fry until fragrant. Add the tofu, gently stir in chili oil, and simmer. Serve hot garnished with spring onions.'
+    description: 'Start by heating a pan and cooking the ground pork until browned. Add minced garlic, Sichuan peppercorns, and fermented black beans. Stir-fry until fragrant. Add the tofu, gently stir in chili oil, and simmer. Serve hot garnished with spring onions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lectus feugiat, vestibulum arcu sed, pulvinar lectus. Donec sed tincidunt quam. In ut purus feugiat, varius metus at, tempor purus. Donec non orci in velit blandit sagittis. Donec eget lectus sit amet massa tincidunt elementum. Praesent tincidunt volutpat dolor, vitae posuere leo suscipit ac. Fusce a diam sed lectus fermentum pharetra sit amet id leo. Curabitur sit amet aliquam mauris, quis porta orci. Suspendisse dapibus, arcu pharetra egestas cursus, tellus mauris condimentum nulla, id molestie urna nunc vel metus. Nunc a mi aliquam, aliquam urna at, rutrum massa. Vestibulum congue ligula nec elementum dignissim. Sed tristique nulla quis elit rutrum, eu condimentum sem rhoncus. Phasellus sagittis, velit et vehicula tristique, tellus elit vulputate nisi, et finibus est nisl sed ipsum. Pellentesque augue arcu, pretium varius imperdiet porta, fringilla nec massa. Suspendisse dapibus eu quam non semper. Quisque velit orci, vulputate quis massa iaculis, imperdiet tempor purus. Donec eget diam sed sem porta tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam mauris justo, laoreet ornare ex ut, dictum bibendum enim. Fusce odio arcu, pellentesque eu viverra at, volutpat vel magna. Duis viverra condimentum lorem. Morbi eu nibh eu dolor vestibulum laoreet. Praesent eu ante dui. Nunc gravida ultrices sollicitudin. Donec dictum blandit mauris et vestibulum.'
   },
   {
     recipeId: 2,
     categoryId: 2, // Japanese Cuisine
     title: 'Ramen',
-    photo_url: 'https://inquiringchef.com/wp-content/uploads/2022/11/Easy-Miso-Ramen_square-0723-500x375.jpg', // Add photo URL
+    photo_url: 'https://inquiringchef.com/wp-content/uploads/2022/11/Easy-Miso-Ramen_square-0723-500x375.jpg',
+  
     time: '30 mins',
     ingredients: [
       [7, '150g ramen noodles'],
@@ -68,7 +74,7 @@ export const recipes = [
       [11, '2 eggs'],
       [12, 'Nori and spring onions for garnish']
     ],
-    description: 'Boil the noodles and cook until al dente. In a separate pot, simmer the broth and add soy sauce, mirin, and salt. Grill the pork belly until crispy. Assemble the ramen with noodles, broth, pork slices, boiled eggs, bamboo shoots, nori, and spring onions.'
+    description: 'Boil the noodles and cook until al dente. In a separate pot, simmer the broth and add soy sauce, mirin, and salt. Grill the pork belly until crispy. Assemble the ramen with noodles, broth, pork slices, boiled eggs, bamboo shoots, nori, and spring onions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lectus feugiat, vestibulum arcu sed, pulvinar lectus. Donec sed tincidunt quam. In ut purus feugiat, varius metus at, tempor purus. Donec non orci in velit blandit sagittis. Donec eget lectus sit amet massa tincidunt elementum. Praesent tincidunt volutpat dolor, vitae posuere leo suscipit ac. Fusce a diam sed lectus fermentum pharetra sit amet id leo. Curabitur sit amet aliquam mauris, quis porta orci. Suspendisse dapibus, arcu pharetra egestas cursus, tellus mauris condimentum nulla, id molestie urna nunc vel metus. Nunc a mi aliquam, aliquam urna at, rutrum massa. Vestibulum congue ligula nec elementum dignissim. Sed tristique nulla quis elit rutrum, eu condimentum sem rhoncus. Phasellus sagittis, velit et vehicula tristique, tellus elit vulputate nisi, et finibus est nisl sed ipsum. Pellentesque augue arcu, pretium varius imperdiet porta, fringilla nec massa. Suspendisse dapibus eu quam non semper. Quisque velit orci, vulputate quis massa iaculis, imperdiet tempor purus. Donec eget diam sed sem porta tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam mauris justo, laoreet ornare ex ut, dictum bibendum enim. Fusce odio arcu, pellentesque eu viverra at, volutpat vel magna. Duis viverra condimentum lorem. Morbi eu nibh eu dolor vestibulum laoreet. Praesent eu ante dui. Nunc gravida ultrices sollicitudin. Donec dictum blandit mauris et vestibulum. '
   },
   {
     recipeId: 3,
